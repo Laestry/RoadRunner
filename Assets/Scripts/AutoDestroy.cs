@@ -11,11 +11,10 @@ public class AutoDestroy : MonoBehaviour
     
     void Start()
     {
-        StartCoroutine(SpawnWaves());
-
+        StartCoroutine(Destroy());
     }
 
-    private IEnumerator SpawnWaves()
+    private IEnumerator Destroy()
     {
         yield  return new WaitForSeconds (secondsToDestroy);
         Instantiate(explosion, gameObject.transform.position, Quaternion.identity.normalized);

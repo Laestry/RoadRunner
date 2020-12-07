@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
-
+using Random = System.Random;
 
 
 public class GameController : MonoBehaviour
@@ -23,6 +24,8 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private GameObject hazard;
     [SerializeField]
+    private GameObject point;
+    [SerializeField]
     private float startWait, spawnWait, waveWait;
     [SerializeField]
     private int hazardCount;
@@ -35,7 +38,10 @@ public class GameController : MonoBehaviour
     private GameObject player;
     [SerializeField] 
     private int speed;
-        
+    [SerializeField] 
+    private GameObject startText;
+    
+    private bool iniateGame;
     private bool gameStarted;
     private Vector3 p;
     private Vector3 spawnValues;
@@ -43,9 +49,8 @@ public class GameController : MonoBehaviour
     private Vector3[] arr;
     private Quaternion[] arrRot;
     private int i1;
-
-  
-
+    
+    public bool pointTaken;
     
     void Start()
     {
@@ -57,7 +62,6 @@ public class GameController : MonoBehaviour
         {
             sp.p1.transform.rotation, sp.p2.transform.rotation, sp.p3.transform.rotation, sp.p4.transform.rotation
         };
-        
         StartCoroutine(SpawnWaves());
     }
     
@@ -75,11 +79,38 @@ public class GameController : MonoBehaviour
 
         if (p.x > -9)
         {
-            gameStarted = true;
+            iniateGame = true;
             player.GetComponent<Limiter>().enabled = true;
+        }
+
+        if (iniateGame)
+        {
+            gameStarted = true;
+            iniateGame = false;
+            startText.SetActive(false);
+        }
+        
+        if (!pointTaken)
+        {
+            pointTaken = true;
+
+            Instantiate(point, new Vector3(
+                    UnityEngine.Random.Range(-7.5f, 7.5f),1.5f, 
+                    UnityEngine.Random.Range(-22f, 13.5f)), 
+                Quaternion.identity);
         }
     }
 
+    public void GameOver()
+    {
+        player.transform.position = new Vector3(-12f,1f, 0f);
+        player.GetComponent<Rigidbody>().velocity = Vector3. zero;
+        player.GetComponent<Limiter>().enabled = false;
+        gameStarted = false;
+        iniateGame = false;
+        startText.SetActive(true);
+    }
+    
     private IEnumerator SpawnWaves()
     {
         yield return new WaitForSeconds (startWait);

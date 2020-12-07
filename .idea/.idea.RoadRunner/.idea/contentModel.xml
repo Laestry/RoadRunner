@@ -9,9 +9,11 @@
         <e p="Scripts" t="Include">
           <e p="AutoDestroy.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
           <e p="Limiter.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
           <e p="Moving.cs" t="Include" />
+          <e p="RectTransform.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

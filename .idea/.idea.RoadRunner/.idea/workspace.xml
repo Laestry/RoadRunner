@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbce4a37-2953-41c8-bc1d-63ad60dd4258" name="Default Changelist" comment="" />
+    <list default="true" id="cbce4a37-2953-41c8-bc1d-63ad60dd4258" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Point.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Point.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/15976_1460552240.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/15976_1460552240.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/Explosion+5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/Explosion+5.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/ouch.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/ouch.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/pointsYes.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/pointsYes.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/thankYou.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sounds/thankYou.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RectTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RectTransform.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RoadRunner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Car.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Car.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AutoDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AutoDestroy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../MindTheBear/Assets/Scripts/Cadmean/MindTheBear/MicroGames/SpaceShooter/SpaceShooterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../MindTheBear/Assets/Scripts/Cadmean/MindTheBear/Common/Destroyers/AutoDestroy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../MindTheBear/Assets/Scripts/Cadmean/MindTheBear/Common/Destroyers/OnCollideDestroyWithExplosions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/a4/99b9bb9a/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/93CC9D9D-D3CB-438F-827B-811749B7E486/73/9c64a67b/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moving.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../MindTheBear/Assets/Scripts/Cadmean/MindTheBear/Controls/TiltLeftRight.cs" root0="SKIP_HIGHLIGHTING" />
@@ -24,20 +75,30 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Moving.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Limiter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/../MindTheBear/Assets/Scripts/Cadmean/MindTheBear/Common/Destroyers/OnCollideDestroyWithExplosions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RectTransform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AutoDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1lHrN94jI7K6UxKsjF8AFgYTzyi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -51,10 +112,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3964">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="3964" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -69,7 +130,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607264821590</updated>
-      <workItem from="1607264839415" duration="16151000" />
+      <workItem from="1607264839415" duration="23132000" />
+      <workItem from="1607341436554" duration="14325000" />
     </task>
     <servers />
   </component>
@@ -78,7 +140,93 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1083" y="316" key="#xdebugger.evaluate" timestamp="1607344703782">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1083" y="316" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1607344703782" />
+    <state width="479" height="464" key="DebuggerActiveHint" timestamp="1607344016028">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="479" height="464" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1607344016028" />
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.0.center" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.0.left" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.0.right" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.1.center" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.1.left" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.1.right" timestamp="1607364106250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106250" />
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.2.center" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.2.left" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.2.right" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.3.center" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.3.left" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
+    <state width="1877" height="390" key="GridCell.Tab.3.right" timestamp="1607364106251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="390" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607364106251" />
   </component>
 </project>
